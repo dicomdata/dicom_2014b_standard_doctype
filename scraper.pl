@@ -23,7 +23,8 @@ $OUTPUT_AUTOFLUSH = 1;
 my $TIMEOUT = 1;
 
 # URI of service.
-my $base_uri = URI->new('ftp://medical.nema.org/medical/dicom/2014b/source/docbook/');
+#my $base_uri = URI->new('ftp://medical.nema.org/medical/dicom/2014b/source/docbook/');
+my $base_uri = URI->new('ftp://medical.nema.org/medical/dicom/current/source/docbook/');
 
 # Open a database handle.
 my $dt = Database::DumpTruck->new({
